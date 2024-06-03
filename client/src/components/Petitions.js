@@ -4,7 +4,7 @@ const Petitions = () => {
     return (
         <div>
             <h2>Petitions</h2>
-            {/* Add petition functionalities here */}
+            {/* will be updated soon (project under development) */}
         </div>
     );
 };

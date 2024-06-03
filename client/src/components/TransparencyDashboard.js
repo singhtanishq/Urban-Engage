@@ -4,7 +4,7 @@ const TransparencyDashboard = () => {
     return (
         <div>
             <h2>Transparency Dashboard</h2>
-            {/* Add transparency dashboard functionalities here */}
+            {/* will be updated soon (project under development) */}
         </div>
     );
 };

@@ -4,7 +4,7 @@ const NeighborhoodGroups = () => {
     return (
         <div>
             <h2>Neighborhood Groups</h2>
-            {/* Add neighborhood groups functionalities here */}
+            {/* will be updated soon (project under development) */}
         </div>
     );
 };

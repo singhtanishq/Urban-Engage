@@ -4,7 +4,7 @@ const PollsSurveys = () => {
     return (
         <div>
             <h2>Polls and Surveys</h2>
-            {/* Add polls and surveys functionalities here */}
+            {/* will be updated soon (project under development) */}
         </div>
     );
 };

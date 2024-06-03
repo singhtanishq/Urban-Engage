@@ -4,7 +4,7 @@ const VolunteerCoordination = () => {
     return (
         <div>
             <h2>Volunteer Coordination</h2>
-            {/* Add volunteer coordination functionalities here */}
+            {/* will be updated soon (project under development) */}
         </div>
     );
 };

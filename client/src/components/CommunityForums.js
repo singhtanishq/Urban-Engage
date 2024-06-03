@@ -4,7 +4,7 @@ const CommunityForums = () => {
     return (
         <div>
             <h2>Community Forums</h2>
-            {/* Add forum functionalities here */}
+            {/* will be updated soon (project under development) */}
         </div>
     );
 };

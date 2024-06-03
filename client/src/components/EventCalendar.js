@@ -4,7 +4,7 @@ const EventCalendar = () => {
     return (
         <div>
             <h2>Event Calendar</h2>
-            {/* Add event calendar functionalities here */}
+            {/* will be updated soon (project under development) */}
         </div>
     );
 };

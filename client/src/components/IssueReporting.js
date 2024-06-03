@@ -4,7 +4,7 @@ const IssueReporting = () => {
     return (
         <div>
             <h2>Issue Reporting</h2>
-            {/* Add issue reporting functionalities here */}
+            {/* will be updated soon (project under development) */}
         </div>
     );
 };
