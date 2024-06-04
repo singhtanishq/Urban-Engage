@@ -46,10 +46,6 @@ UrbanEngage is a web-based platform designed to enhance community engagement and
 - **Alerts and Notifications:**
   - Real-time alerts for emergencies, public safety concerns, and important announcements.
   - Customizable notification settings for users.
-  
-- **Mobile Responsiveness:**
-  - Ensure the platform is fully responsive and accessible on mobile devices.
-  - Optional Progressive Web App (PWA) functionality for enhanced mobile experience.
 
 <BR>
 
