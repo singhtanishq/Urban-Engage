@@ -1,9 +1,13 @@
 # UrbanEngage
 Community Engagement and Local Governance Platform
-<br>
+
+<BR>
+
 ## Project Overview
 
 UrbanEngage is a web-based platform designed to enhance community engagement and facilitate transparent, effective local governance. It connects residents with local authorities, enabling seamless communication, collaboration, and participation in community development.
+
+<BR>
 
 ## Key Features
 
@@ -42,10 +46,8 @@ UrbanEngage is a web-based platform designed to enhance community engagement and
 - **Alerts and Notifications:**
   - Real-time alerts for emergencies, public safety concerns, and important announcements.
   - Customizable notification settings for users.
-  
-- **Mobile Responsiveness:**
-  - Ensure the platform is fully responsive and accessible on mobile devices.
-  - Optional Progressive Web App (PWA) functionality for enhanced mobile experience.
+
+<BR>
 
 ## Technology Stack
 
@@ -53,6 +55,8 @@ UrbanEngage is a web-based platform designed to enhance community engagement and
 - **Backend:** Node.js with Express.js for creating a robust server-side architecture.
 - **Database:** MongoDB for storing user data, community posts, issue reports, and other dynamic content.
 - **Authentication:** JWT (JSON Web Tokens) for secure authentication and authorization.
+
+<BR>
 
 ## Installation and Setup
 
@@ -82,6 +86,8 @@ UrbanEngage is a web-based platform designed to enhance community engagement and
 5. **Open your browser:**
    Navigate to `http://localhost:3000` to see the application in action.
 
+<BR>
+
 ## Contributing
 
 We welcome contributions from the community! Please follow these steps to contribute:
@@ -92,13 +98,16 @@ We welcome contributions from the community! Please follow these steps to contri
 4. Push to the branch (`git push origin feature/YourFeature`).
 5. Open a pull request.
 
+<BR>
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+<BR>
+
 ## Contact
 
 For any inquiries or feedback, please reach out to us at [contact@urbanengage.com](mailto:tanishqsingh@outlook.in).
-
 
 Thank you for using UrbanEngage to make your community a better place!
