@@ -26,7 +26,7 @@ body {
   display: flex;
   justify-content: center;
   background-color: #4CAF50;
-  align-items: center; /* Align items vertically */
+  align-items: center; 
 }
 
 .navbar a {
