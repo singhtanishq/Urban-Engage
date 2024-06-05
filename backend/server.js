@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb+srv://admin:<My Password>@cluster.dlb0yye.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://admin:pswd123@cluster.emju1.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const connection = mongoose.connection;
 connection.once('open', () => {
@@ -23,7 +23,7 @@ const eventRouter = require('./routes/events');
 const dashboardRouter = require('./routes/dashboard');
 const volunteerRouter = require('./routes/volunteers');
 const petitionRouter = require('./routes/petitions');
-const groupRouter = require('./routes/groups');
+const authRouter = require('./routes/auth');
 
 app.use('/forums', forumRouter);
 app.use('/issues', issueRouter);
@@ -32,7 +32,7 @@ app.use('/events', eventRouter);
 app.use('/dashboard', dashboardRouter);
 app.use('/volunteers', volunteerRouter);
 app.use('/petitions', petitionRouter);
-app.use('/groups', groupRouter);
+app.use('/auth', authRouter);
 
 app.listen(PORT, () => {
     console.log(`Server is running on port: ${PORT}`);

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import CommunityForums from './components/CommunityForums';
 import IssueReporting from './components/IssueReporting';
@@ -7,10 +7,16 @@ import EventCalendar from './components/EventCalendar';
 import TransparencyDashboard from './components/TransparencyDashboard';
 import VolunteerCoordination from './components/VolunteerCoordination';
 import Petitions from './components/Petitions';
-import NeighborhoodGroups from './components/NeighborhoodGroups';
+import LoginSignupPopup from './components/LoginSignupPopup';
 import './App.css';
 
 const App = () => {
+    const [showPopup, setShowPopup] = useState(false);
+
+    const togglePopup = () => {
+        setShowPopup(!showPopup);
+    };
+
     return (
         <Router>
             <div className="header">
@@ -25,7 +31,12 @@ const App = () => {
                 <Link to="/dashboard">Transparency Dashboard</Link>
                 <Link to="/volunteer">Volunteer Coordination</Link>
                 <Link to="/petitions">Petitions</Link>
-                <Link to="/groups">Neighborhood Groups</Link>
+                <img 
+                    src="/acc.png" 
+                    alt="Account" 
+                    className="account-icon" 
+                    onClick={togglePopup} 
+                />
             </div>
             <div className="container">
                 <Routes>
@@ -36,9 +47,9 @@ const App = () => {
                     <Route path="/dashboard" element={<TransparencyDashboard />} />
                     <Route path="/volunteer" element={<VolunteerCoordination />} />
                     <Route path="/petitions" element={<Petitions />} />
-                    <Route path="/groups" element={<NeighborhoodGroups />} />
                 </Routes>
             </div>
+            {showPopup && <LoginSignupPopup onClose={togglePopup} />}
         </Router>
     );
 };
