@@ -43,6 +43,7 @@ body {
   top: 99.59px; 
   left: 0;
   z-index: 999;
+  align-items: center; 
 }
 
 .navbar a {
