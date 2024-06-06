@@ -8,6 +8,7 @@ import TransparencyDashboard from './components/TransparencyDashboard';
 import VolunteerCoordination from './components/VolunteerCoordination';
 import Petitions from './components/Petitions';
 import LoginSignupPopup from './components/LoginSignupPopup';
+import ImageCarousel from './components/ImageCarousel';
 import './App.css';
 
 const App = () => {
@@ -20,7 +21,7 @@ const App = () => {
     return (
         <Router>
             <div className="header">
-                <h1>UrbanEngage</h1>
+                <h1>Urban Engage </h1>
             </div>
             <div className="navbar">
                 <Link to="/">Home</Link>
@@ -40,6 +41,7 @@ const App = () => {
             </div>
             <div className="container">
                 <Routes>
+                    <Route path="/" element={<ImageCarousel />} />
                     <Route path="/forums" element={<CommunityForums />} />
                     <Route path="/issues" element={<IssueReporting />} />
                     <Route path="/polls" element={<PollsSurveys />} />
