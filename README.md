@@ -39,10 +39,6 @@ UrbanEngage is a web-based platform designed to enhance community engagement and
   - Tools for creating and signing petitions on local issues.
   - Mechanisms to submit petitions to local authorities once they reach a certain threshold.
   
-- **Neighborhood Groups:**
-  - Sub-groups within the platform for specific neighborhoods or districts.
-  - Focused discussions and collaborations on hyper-local issues.
-  
 - **Alerts and Notifications:**
   - Real-time alerts for emergencies, public safety concerns, and important announcements.
   - Customizable notification settings for users.
